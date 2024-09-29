@@ -10,9 +10,9 @@ int main()
   float penjualan[10],komisi[10],ttlkomisi=0.0;
   int i,jlhdata=10;
   
-  cout<<" ===================="<<endl;
-  cout<<"| PT.MURAH HATI |"<<endl;
-  cout<<" ====================\n"<<endl;
+  cout<<" ❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎"<<endl;
+  cout<<" PT.MURAH HATI "<<endl;
+  cout<<" ❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎\n"<<endl;
   cout<<setprecision(12);
   for(int i=0;i<jlhdata;i++) 
   {
@@ -29,10 +29,10 @@ int main()
     ttlkomisi+=komisi[i];
     cout<<"Komisi : "<<komisi[i]<<"\n"<<endl;
   }
-  cout<<"=======≠=============================================================="<<endl;
+  cout<<"======================================================================"<<endl;
   cout<<"\n Total Komisi yang dibayarkan PT.MURAH HATI : \n"<<ttlkomisi<<endl;
   cout<<"======================================================================"<<endl;
     
     return 0;
-  
+
 } 
